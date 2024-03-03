@@ -63,9 +63,6 @@ const BasicTable:React.FC = ()=>{
         <section className='margin-auto min-h-screen bg-green-200 pt-5 flex flex-col justify-center items-center'>
         <div className='py-5'>
             <h3 className='text-center font-medium text-2xl'>Simple table</h3>
-            <div className=''>
-                <input type='search' className='shadow-md border-2 rounded-md p-2 min-w-[400px]'/>
-            </div>
         </div>
         <div>
             <p className='w-full text-left'>Total No of rows: {tableData.getRowCount()}</p>
