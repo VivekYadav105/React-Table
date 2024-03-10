@@ -22,7 +22,7 @@ const fetcher = async(type:endpointType) =>{
     return data;
 }
 
-const useGetCall = (type:endpointType,fetcherParams?:{key:string,value:string}[])=>{
+const useGetCall = (type:endpointType,fetcherParams?:fetcherParamType[])=>{
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const key:any[] = [type]
     console.log(key)
